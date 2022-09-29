@@ -32,8 +32,8 @@ const CompanyHeader = () => (
 const ChannelContainer = () => {
     return (
         <>
-           <SideBar />
-           <div className="channel-list__list__wrapper">
+            <SideBar />
+            <div className="channel-list__list__wrapper">
                 <CompanyHeader />
                 <ChannelSearch />
                 <ChannelList
@@ -46,7 +46,7 @@ const ChannelContainer = () => {
                         />
                     )}
                 />
-           </div>
+            </div>
         </>
     );
 }
